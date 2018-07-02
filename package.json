@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "我的一个尝试",
   "main": "index.js",
+  "repository": "https://github.com/xinglinb/xing-cli.git",
   "bin": {
     "xing-cli": "./bin/scripts.js"
   },
@@ -10,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "xing-cli start --config aa"
   },
-  "author": "",
+  "author": "xingli",
   "license": "ISC",
   "dependencies": {
     "cross-spawn": "^6.0.5",
