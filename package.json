@@ -2,7 +2,7 @@
   "name": "xing-cli",
   "version": "1.0.0",
   "description": "我的一个尝试",
-  "main": "index.js",
+  "main": "bin/scripts.js",
   "repository": "https://github.com/xinglinb/xing-cli.git",
   "bin": {
     "xing-cli": "./bin/scripts.js"
