@@ -2,7 +2,7 @@
   "name": "xing-cli",
   "version": "1.0.3",
   "description": "我的一个尝试",
-  "main": "bin/cli.js",
+  "main": "bin/scripts.js",
   "repository": "https://github.com/xinglinb/xing-cli.git",
   "bin": {
     "xing-cli": "./bin/scripts.js"
@@ -14,7 +14,12 @@
   "author": "xingli",
   "license": "ISC",
   "dependencies": {
-    "cross-spawn": "^6.0.5",
-    "query-string": "^6.1.0"
+    "chalk": "^2.4.1",
+    "commander": "^2.16.0",
+    "download-git-repo": "^1.0.2",
+    "inquirer": "^6.0.0",
+    "ora": "^2.1.0",
+    "ramda": "^0.25.0",
+    "shelljs": "^0.8.2"
   }
 }
